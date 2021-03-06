@@ -1,0 +1,22 @@
+{
+  "name": "andrevanzuydam/tina4store",
+  "description": "Tina4 Store Module",
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "index.php"
+    ]
+  },
+  "require": {
+    "andrevanzuydam/tina4php": "^0.1.88",
+    "andrevanzuydam/tina4cms": "^0.0.20"
+  },
+  "scripts": {
+    "tina4": "tina4",
+    "tina4service": "tina4service",
+    "test" : "@tina4 tests:run",
+    "initialize": "@tina4 initialize:run",
+    "start" : "php -S localhost:7145 index.php",
+    "start-service": "@tina4service"
+  }
+}
