@@ -8,7 +8,15 @@
         die("Please create a database for using the Store in your index.php file");
     }
 
-    if (!$DBA->tableExists("stock")) {
+    //(new Product())->save();
+    //(new Customer())->save();
+    //(new Address())->save();
+
+
+    //Menu Items
+    (new Content())->addCMSMenu("/store/dashboard", "Store");
+
+    if (!$DBA->tableExists("product")) {
         (new \Tina4\Migration(__DIR__."/migrations"))->doMigration();
     }
 });

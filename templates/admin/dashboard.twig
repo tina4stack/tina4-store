@@ -1,0 +1,43 @@
+<div class="col-md-12">
+    <h3>Store</h3>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" role="tab" href="#"
+               onclick="loadPage('/store/dashboard/landing', 'sub-content')">Dashboard</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" role="tab" href="#"
+               onclick="loadPage('/store/customers', 'sub-content')">Customers</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" role="tab" href="#"
+               onclick="loadPage('/store/orders', 'sub-content')">Orders</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" role="tab" href="#"
+               onclick="loadPage('/store/products', 'sub-content')">Products</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" role="tab" href="#"
+               onclick="loadPage('/store/categories', 'sub-content')">Categories</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" role="tab" href="#"
+               onclick="loadPage('/store/attributes', 'sub-content')">Attributes</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" role="tab" href="#"
+               onclick="loadPage('/store/pricing', 'sub-content')">Pricing</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" role="tab" href="#"
+               onclick="loadPage('/store/paygates', 'sub-content')">Paygates</a>
+        </li>
+    </ul>
+    <div id="sub-content">
+
+    </div>
+    <script>
+        loadPage('/store/dashboard/landing', 'sub-content');
+    </script>
+</div>
