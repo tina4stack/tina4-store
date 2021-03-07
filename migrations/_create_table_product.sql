@@ -11,4 +11,6 @@ create table product (
 	date_created timestamp,
 	date_updated timestamp,
    primary key (id)
-)
+);
+
+insert into product(id,product_code,is_active) values(0, '_None_',0);

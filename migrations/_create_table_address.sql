@@ -16,4 +16,4 @@ create table address (
    primary key (id)
 );
 
-insert into address (id,full_address) values(0, "");
+insert into address (id,full_address,is_active) values(0, '_None_',0);

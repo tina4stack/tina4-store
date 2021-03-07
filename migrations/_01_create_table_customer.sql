@@ -11,5 +11,7 @@ create table customer (
 	is_deleted integer default 0,
 	date_created timestamp,
 	date_updated timestamp,
-   primary key (id)
-)
+    primary key (id)
+);
+
+insert into customer(id,account_no) values (0, '_None_');
