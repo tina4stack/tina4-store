@@ -1,0 +1,49 @@
+<form id="productForm" enctype="multipart/form-data" xmlns="http://www.w3.org/1999/html">
+    <div class="row">
+                    <div class="form-group col-md-6">
+                <label for="id">Id</label>
+                <input class="form-control" type="text" name="id" placeholder="Id" value="{{ data.id }}">
+            </div>
+                    <div class="form-group col-md-6">
+                <label for="productCode">Product Code</label>
+                <input class="form-control" type="text" name="productCode" placeholder="Product Code" value="{{ data.productCode }}">
+            </div>
+                    <div class="form-group col-md-6">
+                <label for="description">Description</label>
+                <input class="form-control" type="text" name="description" placeholder="Description" value="{{ data.description }}">
+            </div>
+                    <div class="form-group col-md-6">
+                <label for="costPrice">Cost Price</label>
+                <input class="form-control" type="text" name="costPrice" placeholder="Cost Price" value="{{ data.costPrice }}">
+            </div>
+                    <div class="form-group col-md-6">
+                <label for="retailPrice">Retail Price</label>
+                <input class="form-control" type="text" name="retailPrice" placeholder="Retail Price" value="{{ data.retailPrice }}">
+            </div>
+                    <div class="form-group col-md-6">
+                <label for="image">Image</label>
+                <input class="form-control" type="text" name="image" placeholder="Image" value="{{ data.image }}">
+            </div>
+                    <div class="form-group col-md-6">
+                <label for="qty">Qty</label>
+                <input class="form-control" type="text" name="qty" placeholder="Qty" value="{{ data.qty }}">
+            </div>
+                    <div class="form-group col-md-6">
+                <label for="isActive">Is Active</label>
+                <input class="form-control" type="text" name="isActive" placeholder="Is Active" value="{{ data.isActive }}">
+            </div>
+                    <div class="form-group col-md-6">
+                <label for="isDeleted">Is Deleted</label>
+                <input class="form-control" type="text" name="isDeleted" placeholder="Is Deleted" value="{{ data.isDeleted }}">
+            </div>
+                    <div class="form-group col-md-6">
+                <label for="dateCreated">Date Created</label>
+                <input class="form-control" type="text" name="dateCreated" placeholder="Date Created" value="{{ data.dateCreated }}">
+            </div>
+                    <div class="form-group col-md-6">
+                <label for="dateUpdated">Date Updated</label>
+                <input class="form-control" type="text" name="dateUpdated" placeholder="Date Updated" value="{{ data.dateUpdated }}">
+            </div>
+            </div>
+    {{"productForm" | formToken | raw }}
+</form>

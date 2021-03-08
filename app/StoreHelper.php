@@ -21,7 +21,7 @@ class StoreHelper extends \Tina4\Data
 
     public function products(\Tina4\Response $response) {
 
-        return $response("Implement");
+        return $response (\Tina4\renderTemplate("/admin/store/products/grid.twig"), HTTP_OK, TEXT_HTML);
     }
 
 }
