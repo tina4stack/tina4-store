@@ -8,8 +8,8 @@
     ]
   },
   "require": {
-    "andrevanzuydam/tina4php": "^0.1.88",
-    "andrevanzuydam/tina4cms": "^0.0.20"
+    "andrevanzuydam/tina4php": "dev-feature/routing",
+    "andrevanzuydam/tina4cms": "dev-master"
   },
   "scripts": {
     "tina4": "tina4",
